@@ -1,0 +1,30 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+
+form .button {
+  align-self: center;
+}
+
+form,
+.todo-input {
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-input {
+  padding: 1rem;
+}
+
+.todo-input i.picture {
+  align-self: center;
+  margin-right: 0;
+  padding: 0.2rem;
+}
+
+.todo-input input {
+  border: none;
+  outline: none;
+  width: 30vw;
+}

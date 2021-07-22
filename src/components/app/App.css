@@ -1,0 +1,6 @@
+.container {
+  margin-top: 2rem;
+  width: 50vw;
+  box-shadow: 0 0 1rem grey;
+  padding: 2vw;
+}

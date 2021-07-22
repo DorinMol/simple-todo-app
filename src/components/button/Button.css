@@ -1,0 +1,23 @@
+input.button {
+  padding: 0.5rem;
+  border-radius: 50rem;
+  cursor: pointer;
+  transition: all 0.25s;
+
+  font-weight: 700;
+  border: none;
+}
+
+input.button:hover {
+  transform: scale(1.2);
+}
+
+input.button.green {
+  background-color: green;
+  color: white;
+}
+
+input.button.red {
+  background-color: red;
+  color: white;
+}

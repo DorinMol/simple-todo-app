@@ -1,0 +1,32 @@
+.todo {
+  display: flex;
+  justify-content: space-between;
+  padding: 1vh;
+  transition: all 0.3s;
+}
+
+.todo:hover {
+  background: linear-gradient(to bottom, black 20%, grey);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.delete {
+  display: none;
+  align-self: center;
+}
+
+.todo:hover .delete {
+  display: inline;
+}
+
+.picture {
+  align-self: center;
+  margin-right: 1rem;
+}
+
+.text {
+  border-left: 0.2rem solid grey;
+  padding-left: 1rem;
+}
